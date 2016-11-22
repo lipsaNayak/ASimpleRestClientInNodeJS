@@ -1,4 +1,5 @@
-[{
+[
+	{
 	"mag_identifier": "DEVICE1",
 	"device_status": "ACTIVATED",
 	"device_name": "lipsa",
@@ -66,7 +67,7 @@
 			"create": "1473850100"
 		}]
 	}, {
-		"client_id": "fe84f4e9-3e34-42a1-8de7-0e88488d59c",
+		"client_id": "fe84f4e9-3e34-42a1-8de7-0e88488d59ca",
 		"client_key": "CK3",
 		"client_name": "some_newapp",
 		"client_scope": "all",

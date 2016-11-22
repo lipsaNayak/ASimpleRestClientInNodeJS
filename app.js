@@ -12,6 +12,7 @@ var db = monk('localhost:27017/nodeServerWithRest');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var devices = require('./routes/devices');
+var tokens = require('./routes/tokens');
 
 var app = express();
 var cors = require('cors');
@@ -39,6 +40,7 @@ app.use(function(req,res,next){
 app.use('/', index);
 app.use('/users', users);
 app.use('/devices', devices);
+app.use('/tokens', tokens);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
