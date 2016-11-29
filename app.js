@@ -13,6 +13,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var devices = require('./routes/devices');
 var tokens = require('./routes/tokens');
+var appsOnDevices = require('./routes/appsOnDevices');
 
 var app = express();
 var cors = require('cors');
@@ -41,6 +42,7 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/devices', devices);
 app.use('/tokens', tokens);
+app.use('/appsOnDevices', appsOnDevices);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

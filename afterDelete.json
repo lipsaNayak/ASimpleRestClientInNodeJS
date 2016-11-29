@@ -1,0 +1,79 @@
+{
+	"_id" : ObjectId("583c26a377148a2a317b1271"),
+	"mag_identifier" : "DEVICE1",
+	"device_status" : "ACTIVATED",
+	"device_name" : "lipsa",
+	"device_updated" : "1473850900",
+	"device_dn" : "CN=admin, OU=4a79d18fb934fe72__365858963__-knox-0__815096401, DC=Android SDK built for x86_64, O=CA",
+	"device_created" : "1473850100",
+	"platform" : "iOS",
+	"multiuser" : "true",
+	"apps" : [
+		{
+			"client_id" : "08b30ee5-9509-4608-9040-e029f0b675db",
+			"client_key" : "CK1",
+			"client_name" : "some_app",
+			"client_scope" : "all",
+			"client_status" : "ENABLED",
+			"tokens" : [
+				{
+					"token" : "TOKEN1",
+					"expiration" : "1473850388",
+					"rtoken" : "5bc646c4-ce60-4bc8-924d-20c3c33d35g5",
+					"rexpiration" : "1473850388",
+					"scope" : "ENABLED",
+					"resourceOwner" : "LIPSA",
+					"client_key" : "CK1",
+					"client_name" : "some_app",
+					"status" : "ENABLED",
+					"create" : "1473850100"
+				},
+				{
+					"token" : "TOKEN2",
+					"expiration" : "1473850388",
+					"rtoken" : "5bc646c4-ce60-4bc8-924d-20c3c33d35g9",
+					"rexpiration" : "1473850388",
+					"scope" : "ENABLED",
+					"resourceOwner" : "LIPSA",
+					"client_key" : "CK1",
+					"client_name" : "some_app",
+					"status" : "ENABLED",
+					"create" : "1473850100"
+				}
+			]
+		},
+		{
+			"client_id" : "fe84f4e9-3e34-42a1-8de7-0e88488d59ca",
+			"client_key" : "CK3",
+			"client_name" : "some_newapp",
+			"client_scope" : "all",
+			"client_status" : "ENABLED",
+			"tokens" : [
+				{
+					"token" : "TOKEN5",
+					"expiration" : "1473850374",
+					"rtoken" : "5bc646c4-ce60-4bc8-924d-20c3c33d35d3",
+					"rexpiration" : "1473850374",
+					"scope" : "ENABLED",
+					"resourceOwner" : "LIPSA",
+					"client_key" : "CK3",
+					"client_name" : "some_newapp",
+					"status" : "ENABLED",
+					"create" : "1473850100"
+				},
+				{
+					"token" : "TOKEN6",
+					"expiration" : "1473850374",
+					"rtoken" : "5bc646c4-ce60-4bc8-924d-20c3c33d35d5",
+					"rexpiration" : "1473850374",
+					"scope" : "ENABLED",
+					"resourceOwner" : "LIPSA",
+					"client_key" : "CK3",
+					"client_name" : "some_newapp",
+					"status" : "ENABLED",
+					"create" : "1473850100"
+				}
+			]
+		}
+	]
+}

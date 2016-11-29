@@ -1,0 +1,303 @@
+[
+	{
+		"mag_identifier": "DEVICE1",
+		"client_id": "08b30ee5-9509-4608-9040-e029f0b675db",
+		"client_key": "CK1",
+		"client_name": "some_app",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN1",
+			"expiration": "1473850388",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35g5",
+			"rexpiration": "1473850388",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK1",
+			"client_name": "some_app",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN2",
+			"expiration": "1473850388",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35g9",
+			"rexpiration": "1473850388",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK1",
+			"client_name": "some_app",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	}, 
+	{
+		"mag_identifier": "DEVICE1",
+		"client_id": "518bd475-9beb-408d-8b03-885056cc33a3",
+		"client_key": "CK2",
+		"client_name": "some_app",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN3",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35e7",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK2",
+			"client_name": "some_app",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN4",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35e4",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK2",
+			"client_name": "some_app",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	}, 
+	{
+		"mag_identifier": "DEVICE1",
+		"client_id": "fe84f4e9-3e34-42a1-8de7-0e88488d59ca",
+		"client_key": "CK3",
+		"client_name": "some_newapp",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN5",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35d3",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK3",
+			"client_name": "some_newapp",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN6",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35d5",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK3",
+			"client_name": "some_newapp",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	},
+	{
+		"mag_identifier": "DEVICE2",
+		"client_id": "b5851cd9-24c4-4eb1-9b76-ff08b1a04d24",
+		"client_key": "CK4",
+		"client_name": "some_app01",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN7",
+			"expiration": "1473850388",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35h6",
+			"rexpiration": "1473850388",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK4",
+			"client_name": "some_app01",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN8",
+			"expiration": "1473850388",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35j7",
+			"rexpiration": "1473850388",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK4",
+			"client_name": "some_app01",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	}, 
+	{
+		"mag_identifier": "DEVICE2",
+		"client_id": "08b30ee5-9509-4608-9040-e029f0b675db",
+		"client_key": "CK5",
+		"client_name": "some_app02",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN9",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35e2",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK5",
+			"client_name": "some_app02",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN10",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35v4",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK5",
+			"client_name": "some_app02",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	},
+	{
+		"mag_identifier": "DEVICE2",
+		"client_id": "7fc8c185-8cfb-4f01-b40c-497628fa1db3",
+		"client_key": "CK6",
+		"client_name": "some_newapp01",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN11",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35d0",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK6",
+			"client_name": "some_newapp01",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN12",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35j2",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK6",
+			"client_name": "some_newapp01",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	},
+	{
+		"mag_identifier": "DEVICE3",
+		"client_id": "518bd475-9beb-408d-8b03-885056cc33a3",
+		"client_key": "CK7",
+		"client_name": "some_app04",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN13",
+			"expiration": "1473850388",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35m7",
+			"rexpiration": "1473850388",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK7",
+			"client_name": "some_app04",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN14",
+			"expiration": "1473850388",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35h5",
+			"rexpiration": "1473850388",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK7",
+			"client_name": "some_app04",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	}, 
+	{
+		"mag_identifier": "DEVICE3",
+		"client_id": "fe84f4e9-3e34-42a1-8de7-0e88488d59c",
+		"client_key": "CK8",
+		"client_name": "some_app03",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN15",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35j8",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK8",
+			"client_name": "some_app03",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN16",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35b2",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK8",
+			"client_name": "some_app03",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	}, 
+	{
+		"mag_identifier": "DEVICE3",
+		"client_id": "b5851cd9-24c4-4eb1-9b76-ff08b1a04d24",
+		"client_key": "CK9",
+		"client_name": "some_newapp02",
+		"client_scope": "all",
+		"client_status": "ENABLED",
+		"tokens": [{
+			"token": "TOKEN17",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35s4",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK9",
+			"client_name": "some_newapp02",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN18",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35d7",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK9",
+			"client_name": "some_newapp02",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN19",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35d7",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK9",
+			"client_name": "some_newapp02",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}, {
+			"token": "TOKEN20",
+			"expiration": "1473850374",
+			"rtoken": "5bc646c4-ce60-4bc8-924d-20c3c33d35g6",
+			"rexpiration": "1473850374",
+			"scope": "ENABLED",
+			"resourceOwner": "LIPSA",
+			"client_key": "CK9",
+			"client_name": "some_newapp02",
+			"status": "ENABLED",
+			"create": "1473850100"
+		}]
+	}
+]

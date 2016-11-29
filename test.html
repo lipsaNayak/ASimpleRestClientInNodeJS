@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.extend demo</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<div id="log"></div>
+ 
+<script>
+// var object1 = {
+//   apple: 0,
+//   banana: { weight: 52, price: 100 },
+//   cherry: 97
+// };
+// var object2 = {
+//   banana: { price: 200 },
+//   durian: 100
+// };
+ 
+// // Merge object2 into object1
+// $.extend( object1, object2 );
+ 
+// // Assuming JSON.stringify - not available in IE<8
+// $( "#log" ).append( JSON.stringify( object1 ) );
+
+
+var devices = [{"mag_identifier": "DEVICE1"},{"mag_identifier": "DEVICE2"},{"mag_identifier": "DEVICE3"}];
+var appsOnDevices = [{"client_id": "0","mag_identifier": "DEVICE1"},{"client_id": "1","mag_identifier": "DEVICE2"},{"client_id": "2","mag_identifier": "DEVICE1"},{"client_id": "3","mag_identifier": "DEVICE3"},{"client_id": "4","mag_identifier": "DEVICE3"},{"client_id": "5","mag_identifier": "DEVICE2"}];
+
+var result = [];
+console.log(devices.length);
+for(var i =0; i< devices.length; i++){
+	var happs =[];
+	var deviceId= devices[i].mag_identifier;
+	for(var j =0; j< appsOnDevices.length; j++){
+		if(appsOnDevices[j].mag_identifier === deviceId )
+		{
+			happs.push(appsOnDevices[j]);
+		}
+	}
+	var appsList = {
+		'apps': happs
+	}
+	
+	appsList['mag_identifier'] = devices[i].mag_identifier;
+	//console.log('appsList: ',appsList)
+	result.push(appsList);
+}
+console.log(result);
+
+
+
+</script>
+ 
+</body>
+</html>
