@@ -2,7 +2,7 @@
 	{
 		"mag_identifier": "DEVICE1",
 		"device_status": "ACTIVATED",
-		"device_name": "lipsa",
+		"device_name": "LIPSA_iOS",
 		"device_updated": "1473850900",
 		"device_dn": "CN=admin, OU=4a79d18fb934fe72__365858963__-knox-0__815096401, DC=Android SDK built for x86_64, O=CA",
 		"device_created": "1473850100",
@@ -12,7 +12,7 @@
 	{
 		"mag_identifier": "DEVICE2",
 		"device_status": "ACTIVATED",
-		"device_name": "LIPSA",
+		"device_name": "LAKSHMI_iOS",
 		"device_updated": "1473850989",
 		"device_dn": "CN=admin, OU=4a79d18fb934fe72__365858963__-knox-0__815096401, DC=Android SDK built for x86_64, O=CA",
 		"device_created": "1473850900",
@@ -22,11 +22,21 @@
 	{
 		"mag_identifier": "DEVICE3",
 		"device_status": "ACTIVATED",
-		"device_name": "LIPSA",
+		"device_name": "PRADEEP_iOS",
 		"device_updated": "1473850900",
 		"device_dn": "CN=admin, OU=4a79d18fb934fe72__365858963__-knox-0__815096401, DC=Android SDK built for x86_64, O=CA",
 		"device_created": "1473850100",
 		"platform": "iOS",
+		"multiuser": "true"
+	},
+	{
+		"mag_identifier": "DEVICE4",
+		"device_status": "ACTIVATED",
+		"device_name": "ADITYA_Android",
+		"device_updated": "1473850900",
+		"device_dn": "CN=admin, OU=4a79d18fb934fe72__365858963__-knox-0__815096401, DC=Android SDK built for x86_64, O=CA",
+		"device_created": "1473850100",
+		"platform": "Android",
 		"multiuser": "true"
 	}
 ]
